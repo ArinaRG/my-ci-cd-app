@@ -8,5 +8,5 @@ def hello():
 def health():
     return "ok", 200
 
-if__name__=='__main__':
+if __name__ =='__main__':
     app.run(host='0.0.0.0', port=5000)

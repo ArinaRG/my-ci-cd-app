@@ -46,5 +46,5 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/ArinaRG/my-python-app:latest
-            ghcr.io/ArinaRG/my-python-app:${{github.sha}}
+            ghcr.io/arinarg/my-python-app:latest
+            ghcr.io/arinarg/my-python-app:${{github.sha}}
